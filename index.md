@@ -8,7 +8,6 @@
 Uwe.js Beta2 添加了许多语法
 
 ``JavaScript
-
 EditValue(KJName,XGText);
 
 WriteWarnText(WriteText);
