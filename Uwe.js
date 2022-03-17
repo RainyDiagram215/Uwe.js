@@ -1,30 +1,47 @@
 //Uwe.js
-//Edition Beta 1 Bulid 7
-//By ÎŞÃûÕß
+//Edition Beta 2 Bulid 8
+//By æ— åè€…
 /*
- * WriteConsole(WriteText); ÓÃÓÚÔÚ¿ØÖÆÌ¨(Console)ÖĞÊä³öÒ»ÌõÕı³£µÄĞÅÏ¢
-  * WriteErrorText(WriteText); ÓÃÓÚÔÚ¿ØÖÆÌ¨(Console)ÖĞÊä³öÒ»ÌõÌáÊ¾ÓĞ´íÎóµÄĞÅÏ¢
-  * Message(ShowText); ÓÃÓÚÏÔÊ¾Ò»¸öĞÅÏ¢¿ò(MessageBox)
-  * GotoLink(Link); Ìø×ªµ½Ö¸¶¨Á´½Ó
-  * LoadLink(Link); ÓÃĞÂ´°¿Ú´ò¿ªÁ´½Ó
-  * zwf(); Õ¼Î»·û
+ * WriteConsole(WriteText); ç”¨äºåœ¨æ§åˆ¶å°(Console)ä¸­è¾“å‡ºä¸€æ¡æ­£å¸¸çš„ä¿¡æ¯
+  * WriteErrorText(WriteText); ç”¨äºåœ¨æ§åˆ¶å°(Console)ä¸­è¾“å‡ºä¸€æ¡æç¤ºæœ‰é”™è¯¯çš„ä¿¡æ¯
+  * Message(ShowText); ç”¨äºæ˜¾ç¤ºä¸€ä¸ªä¿¡æ¯æ¡†(MessageBox)
+  * GotoLink(Link); è·³è½¬åˆ°æŒ‡å®šé“¾æ¥
+  * LoadLink(Link); ç”¨æ–°çª—å£æ‰“å¼€é“¾æ¥
+  * zwf(); å ä½ç¬¦
+  * EditValue(KJName,XGText); ä¿®æ”¹æ§ä»¶å±æ€§
+  * WriteWarnText(WriteText); ç”¨äºåœ¨æ§åˆ¶å°(Console)ä¸­è¾“å‡ºä¸€æ¡è­¦å‘Šå½¢å¼çš„ä¿¡æ¯
+  * ClearScreen(); æ¸…ç©ºæ˜¾ç¤ºå†…å®¹
+  * WriteScreen(WriteText);  è¾“å‡ºHTMLæ–‡æœ¬
  */
-console.info('Uwe.js Is Starting!');
+console.info('Uwe.jså¯åŠ¨å®Œæˆ!');
 function WriteConsole(WriteText) {
-    console.log(WriteText); //ÓÃconsoleµÄlog(info)·½·¨Êä³öÒ»ÌõÕı³£ĞÅÏ¢
+    console.log(WriteText); //ç”¨consoleçš„log(info)æ–¹æ³•è¾“å‡ºä¸€æ¡æ­£å¸¸ä¿¡æ¯
 }
 function WriteErrorText(WriteText) {
-    console.error(WriteText); //ÓÃconsoleµÄerror·½·¨ÔÚ¿ØÖÆÌ¨Êä³öÒ»Ìõ´íÎóĞÅÏ¢
+    console.error(WriteText); //ç”¨consoleçš„erroræ–¹æ³•åœ¨æ§åˆ¶å°è¾“å‡ºä¸€æ¡é”™è¯¯ä¿¡æ¯
 }
 function Message(ShowText) {
-    window.alert(ShowText); //ÓÃWindowµÄalert·½·¨ÏÔÊ¾ÏûÏ¢´°¿Ú
+    window.alert(ShowText); //ç”¨Windowçš„alertæ–¹æ³•æ˜¾ç¤ºæ¶ˆæ¯çª—å£
 }
 function GotoLink(Link) {
-    document.location.href = Link //Ìø×ªµ½Link±äÁ¿ËùÖ¸µÄÁ´½Ó
+    document.location.href = Link //è·³è½¬åˆ°Linkå˜é‡æ‰€æŒ‡çš„é“¾æ¥
 }
 function LoadLink(Link) {
-    window.open(Link); //ÓÃĞÂ´°¿Ú´ò¿ªÁ´½Ó
+    window.open(Link); //ç”¨æ–°çª—å£æ‰“å¼€é“¾æ¥
 }
 function zwf() {
-    //Ê²Ã´´úÂë¶¼Ã»ÓĞ£¬ÕâÖ»ÊÇ¸öÕ¼Î»·û£¡
+    //ä»€ä¹ˆä»£ç éƒ½æ²¡æœ‰ï¼Œè¿™åªæ˜¯ä¸ªå ä½ç¬¦ï¼
+}
+function EditValue(KJName, XGText) {
+    document.getElementById(KJName).innerHTML = XGText; //ä¿®æ”¹æ§ä»¶å±æ€§
+    console.log("å·²ä¿®æ”¹" + KJName + "çš„å±æ€§"); //æç¤ºä¿®æ”¹å®Œæˆ
+}
+function WriteWarnText(WriteText) {
+    console.warn(WriteText); //ç”¨consoleçš„warnæ–¹æ³•åœ¨æ§åˆ¶å°è¾“å‡ºä¸€æ¡è­¦å‘Šä¿¡æ¯
+}
+function ClearScreen() {
+    document.write("<!-- Null -->"); //è¾“å‡ºä¸€æ¡æ³¨é‡Š
+}
+function WriteScreen(WriteText) {
+    document.write(WriteText); //è¾“å‡ºå†…å®¹
 }
