@@ -6,12 +6,18 @@
 ### Uwe.js Beta2
 
 Uwe.js Beta2 添加了许多语法
+
 ``JavaScript
+
 EditValue(KJName,XGText);
+
 WriteWarnText(WriteText);
+
 ClearScreen();
+
 WriteScreen(WriteText);
 ``
+
 _可从Beta2分支中下载_
 
 ### Jekyll Themes
