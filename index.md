@@ -13,7 +13,7 @@ WriteWarnText(WriteText);
 ClearScreen();
 WriteScreen(WriteText);
 ```
-####Tips:
+#### Tips:
 _可从Beta2分支中下载_
 
 ### Jekyll Themes
