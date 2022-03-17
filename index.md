@@ -16,10 +16,11 @@ WriteScreen(WriteText);
 #### Tips:
 _可从Beta2分支中下载_
 
-### Jekyll Themes
+### 反馈
+通过提交 lssues 向我们提交反馈!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RainyDiagram215/Uwe.js/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 加入我们
+如果你想的话，你可以立刻 Fork 仓库或给我们提交一个Pull requests!
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 注意!
+请注意，此代码使用了Apache-2.0 License,请你仔细阅读Apache-2.0 License许可证条约后使用，谢谢!
