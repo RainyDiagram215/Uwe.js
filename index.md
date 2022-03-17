@@ -1,10 +1,9 @@
 ## Uwe.js - 基于 JavaScript创建的库
 
-You can use the [editor on GitHub](https://github.com/RainyDiagram215/Uwe.js/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+作者这样说:
+>Uwe.js 是一个基于JavaScript的代码库，因为有些操作初学者可能搞不懂，所以作者创建了这个库，以便初学者们能快速的建立一个多功能网站
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Uwe.js Beta2
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
