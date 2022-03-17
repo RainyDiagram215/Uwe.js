@@ -7,7 +7,7 @@
 
 Uwe.js Beta2 添加了许多语法
 
-``JavaScript
+```JavaScript
 EditValue(KJName,XGText);
 
 WriteWarnText(WriteText);
@@ -15,7 +15,7 @@ WriteWarnText(WriteText);
 ClearScreen();
 
 WriteScreen(WriteText);
-``
+```
 
 _可从Beta2分支中下载_
 
